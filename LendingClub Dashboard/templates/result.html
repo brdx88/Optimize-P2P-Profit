@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'index.html' %} {% block content %}
+<center>
+    <br>
+    <div class="container h1 bg-dark text-white">
+        <b>BORROWER'S <br> REPAYMENT CAPABILITY</b>
+    </div>
+    <br>
+    <div class="container p-1 my-1 bg-secondary text-white">
+        <b>Loan Amount: </b> {{loan_amnt}}<br>
+        <b>Loan Term: </b> {{term}}<br>
+        <b>Interest Rate: </b> {{int_rate}}<br>
+        <b>Installment: </b> {{installment}}<br>
+        <b>Grade: </b> {{grade}}<br>
+        <b>Sub Grade: </b> {{sub_grade}}<br>
+        <b>Employment Title: </b> {{emp_title}}<br>
+        <b>Employment Length: </b> {{emp_length}}<br>
+        <b>Home Ownership: </b> {{home_ownership}}<br>
+        <b>Annual Income: </b> {{annual_inc}}<br>
+        <b>Verification Status: </b> {{verification_status}}<br>
+        <b>Issue Date: </b> {{issue_d}}<br>
+        <b>Purpose: </b> {{purpose}}<br>
+        <b>Debt-to-Income Ratio: </b> {{dti}}<br>
+        <b>Earliest Credit Line: </b> {{earliest_cr_line}}<br>
+        <b>Number of Open Credit LInes: </b> {{open_acc}}<br>
+        <b>Number of Derogatory Public Record: </b> {{pub_rec}}<br>
+        <b>Total Credit Revolving Balance: </b> {{revol_bal}}<br>
+        <b>Revolving Line Utilization Rate: </b> {{revol_util}}<br>
+        <b>Total Number of Credit Lines : </b> {{total_acc}}<br>
+        <b>Initial List Status: </b> {{initial_list_status}}<br>
+        <b>Application Type: </b> {{application_type}}<br>
+        <b>Mortgage Account: </b> {{mort_acc}}<br>
+        <b>Number of Public Record Bankruptcies: </b> {{pub_rec_bankruptcies}}<br>
+        <b>Address: </b> {{address}}<br>
+    </div>
+    <br>
+    <div class="container h2 bg-dark text-white">
+        <b>Repayment Capability : </b> <br>
+        {{proba_borrowers}} {{pred_borrowers}}
+    </div>
+
+    <hr>
+    <a href="/invest" target="_self">
+        <button style="background-color: rgb(0,71,110); color: whitesmoke" class="btn btn-light">
+            Predict Again
+        </button>
+    </a>
+    <a href="/" target="_self">
+        <button style="background-color: rgb(0,71,110); color: whitesmoke" class="btn btn-light">
+            Back to Home
+        </button>
+    </a>
+</center>
+
+{% endblock %}

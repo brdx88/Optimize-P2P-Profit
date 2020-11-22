@@ -1,0 +1,4 @@
+Download here, file named 'lendingclub.csv'
+https://drive.google.com/file/d/13yVzT-unaDuLwCF7AMlDbH43ez820DBw/view?usp=sharing
+
+Can't upload through GitHub because of its size limitation.
