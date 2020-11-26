@@ -25,31 +25,23 @@ If investors don't get their return of interest, technically LC can't charge ser
 ## Project Limitation
 In this project, we will focus on the range of loan amount between \$ 25 until \$ 10,000. Because, borrowers who have loan amount above \$10,000 has many consideration to be picked. Right? The other reason that this limitation exists is to minimize unwanted errors of Machine Learning later. So, the rest of loan amount will be handled by LC's proffesionals.
 
-## Table of Contents:
-1. Preparation of Dataset
-2. Explanation of Each Column
-3. Handling Missing Value
-4. Feature Extraction
-5. Outliers
-6. Exploratory Data Analysis
-7. Feature Engineering
-8. Base Model for Initial Evaluation
-9. Data Preprocessing
-10. Machine Learning Modelling
-11. Machine Learning Optimization
-12. The Best Model
-13. Conclusions
-14. Recommendations
+
+
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/0.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/2.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/3.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/5.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/9.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/7.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/4.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/1.png)
+![1](https://github.com/brdx88/hotel_booking_demand_EDA/blob/main/images/10.png)
 
 
 
 
 
-
-
-
-
-# 13) Conclusions
+## Conclusions
 1. **83.18 % borrowers are likely to complete their loan amount** rather than 16.82 % borrowers who has been valued as charged-off.
 2. Notice that **borrowers who loan 60 months has higher interest rate** (15.7%) rather than 36 months (12.8%)
 3. 33.04% borrowers are grade 'B', and 28.3% borrowers are grade 'C'. Both grade 'B' and 'C' combined into 61.34% alone. The least percentage of borrowers is grade 'G'. **This tells us that LendingClub is the healthy platform for investors**.
@@ -61,6 +53,6 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 6. Generally speaking, **the main characteristics of borrowers who stop repay their loans** are have: high interest rate, high loan amount, high installment, high debt-to-income ratio, low grade and low sub grade.
 10. **Machine learning model which built with Random Forest algorithm has Precision score 0.90 of 1.0.** Using Precision from classification report because we only focus to minimize False Positive which the actual is charged-off but the model predicts fully paid rather than the actual is fully paid but the model predicts charged-off. This is nightmare for lenders/ investors because the worst scenario is all lenders' money would be gone in no time.
 
-# 14) Recommendations
+## Recommendations
 1. LendingClub could offer subscription services to lenders that will help them to choose borrowers wisely. Let's say educating them with the facts like "High risk isn't always high return, but high understanding leands to high return". Except if the lenders put their money into A grade borrowers, they don't need many informations.
 2. Machine Learning model can be included in the subscription services which can help lenders easily to pick borrowers. Lenders only need to put the information of borrowers and then one 'click' away, they get the result of borrowers' repayment capability.
