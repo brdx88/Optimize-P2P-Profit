@@ -1,7 +1,7 @@
 # Optimize LendingClub's Profit *(by Predicting Borrower's Repayment Capability)*
 
-![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/money.png)
 ![1]https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/LC%20logo.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/money.jpg)
 
 LendingClub (LC) is one of the biggest P2P Lending platform in America. Since 2007, they’ve been bringing borrowers and investors together, transforming the way people access credit. Over the last 10 years, they've helped millions of people take control of their debt, grow their small businesses, and invest for the future. As a Borrower, you could loan up to \$ 40,000. As an Investor (Lender), you could invest your money at the minimum amount, \$ 25.
 
@@ -65,3 +65,5 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/dashb2.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/dashb3.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/dashb4.png)
+
+### For more insights, visit the notebook [here](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/LendingClub.ipynb).
