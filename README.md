@@ -12,7 +12,7 @@ Investors made money from the interest on these loans, but LC made money by char
 2. Losses because you can't sell early (liquidity risk).
   > *The ability to sell your loans early - before your borrowers repay them naturally - is not a God-given right. P2P lending returns are stable because most lenders hold onto loans until they're repaid. If lending became like the stock market, where people dip in and out all the time, it would start leading to similarly wild price swings. In lending, that means swings in interest earned or returns made.* -- [4thway.co.uk](https://www.4thway.co.uk/guides/seven-key-peer-peer-lending-risks/)
 
-If investors don't get their return of interest, technically LC can't charge service fee to investors, which means LC do not get money and profit from them.
+If investors don't get their return of interest, technically LC can't charge service fee to investors, which means LC does not get money and profit from them.
 
 ## Problems
 1. What are the characteristics of borrowers who stop repaying their loan?
