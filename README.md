@@ -1,5 +1,4 @@
-# Optimize LendingClub's Profit 
-#### (by Predicting Borrower's Repayment Capability)
+# Optimize LendingClub's Profit (by Predicting Borrower's Repayment Capability)
 
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/money.jpg)
 
