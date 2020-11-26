@@ -28,14 +28,14 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 
 
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/0.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/2.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/3.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/5.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/9.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/7.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/4.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/1.png)
-![1](https://github.com/brdx88/Optimize-P2P-Profit//blob/main/images/10.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/2.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/3.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/5.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/9.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/7.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/4.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/1.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/10.png)
 
 
 
