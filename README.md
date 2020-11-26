@@ -1,4 +1,7 @@
-# Optimize LendingClub's Profit by Predicting Borrower's Repayment Capability
+# Optimize LendingClub's Profit 
+#### (by Predicting Borrower's Repayment Capability)
+
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/money.jpg)
 
 LendingClub (LC) is one of the biggest P2P Lending platform in America. Since 2007, they’ve been bringing borrowers and investors together, transforming the way people access credit. Over the last 10 years, they've helped millions of people take control of their debt, grow their small businesses, and invest for the future. As a Borrower, you could loan up to \$ 40,000. As an Investor (Lender), you could invest your money at the minimum amount, \$ 25.
 
@@ -26,7 +29,7 @@ If investors don't get their return of interest, technically LC can't charge ser
 In this project, we will focus on the range of loan amount between \$ 25 until \$ 10,000. Because, borrowers who have loan amount above \$10,000 has many consideration to be picked. Right? The other reason that this limitation exists is to minimize unwanted errors of Machine Learning later. So, the rest of loan amount will be handled by LC's proffesionals.
 
 
-
+## Exploratory Data Analysis
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/0.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/2.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/3.png)
@@ -56,3 +59,9 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 ## Recommendations
 1. LendingClub could offer subscription services to lenders that will help them to choose borrowers wisely. Let's say educating them with the facts like "High risk isn't always high return, but high understanding leands to high return". Except if the lenders put their money into A grade borrowers, they don't need many informations.
 2. Machine Learning model can be included in the subscription services which can help lenders easily to pick borrowers. Lenders only need to put the information of borrowers and then one 'click' away, they get the result of borrowers' repayment capability.
+
+## The Dashboard
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/dashb1.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/dashb2.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/dashb3.png)
+![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/dashb4.png)
