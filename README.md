@@ -94,7 +94,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 
 X_train_smote, y_train_smote = sm.fit_sample(X_train, y_train)
 
-# Tuning the Model
+# Tuning the Best Model
 rf_t = RandomForestClassifier()
 param_rf = {
     "n_estimators" : [10,25,30,50],
@@ -115,7 +115,7 @@ grid_rf.fit(X_train_smote, y_train_smote)
 pred_rft = grid_rf.predict(X_test)
 tuned_rf = grid_rf.best_estimator_
 
-# Deploy the Model
+# Deploy the Best Model
 import joblib
 joblib.dump(tuned_rf, 'lc_tunedrf')
 ```
