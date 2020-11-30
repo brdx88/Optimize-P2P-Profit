@@ -66,6 +66,12 @@ pred_init_smote = init_smote.predict(X_test_init_sc)
 
 # Feature Selection based on Correlation and LogisticRegression's Coefficient
 
+corr = lendclub.corr()
+mask = np.triu(np.ones_like(corr, dtype = bool))
+plt.figure(figsize = (15,15))
+sns.heatmap(corr, mask = mask, cmap = 'coolwarm', annot = True, linewidths = 1, fmt = '.2f')
+plt.show()
+
 init_coef_smote = dict(zip(X_init.columns, abs(init_smote.coef_[0])))
 pd.DataFrame.from_dict(data = init_coef_smote, orient = 'index', columns=['Coef']).sort_values(by = 'Coef', ascending = False)
 
