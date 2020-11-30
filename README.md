@@ -42,7 +42,18 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 
 ## Machine Learning Model
 ```python
+
+
 # Base Model for Initial Evaluation
+
+X_init = lendclub.drop('loan_status', axis = 1)
+y_init = lendclub['loan_status']
+
+X_train_init, X_test_init, y_train_init, y_test_init = train_test_split(X_init, y_init, test_size = 0.2, random_state = 88, stratify = y_init)
+
+sm = SMOTE()
+X_train_init_smote, y_train_init_smote = sm.fit_sample(X_train_init, y_train_init)
+
 scaler = RobustScaler()
 
 X_train_init_sc_smote = scaler.fit_transform(X_train_init_smote)
@@ -102,7 +113,7 @@ tuned_rf = grid_rf.best_estimator_
 import joblib
 joblib.dump(tuned_rf, 'lc_tunedrf')
 ```
-Using Precision from classification report because we only focus to minimize False Positive which the actual is charged-off but the model predicts fully paid rather than the actual is fully paid but the model predicts charged-off. This is nightmare for lenders/ investors because the worst scenario is all lenders' money would be gone in no time.
+Using Precision from classification report because we only focus **to minimize False Positive which the actual is charged-off but the model predicts fully paid** rather than the actual is fully paid but the model predicts charged-off. This is nightmare for lenders/ investors because the worst scenario is all lenders' money would be gone in no time.
 ```bash
     +---------------------------+------------------+
     |  Model   			| Precision Score  |
