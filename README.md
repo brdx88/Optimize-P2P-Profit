@@ -40,9 +40,60 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/1.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/10.png)
 
+## Machine Learning Model
+```python
+# Splitting
+X = feat_coef.drop('loan_status', axis = 1)
+y = feat_coef['loan_status']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 88, stratify = y)
 
 
+# Handling Imbalance
+# DATASET FOR TREE BASED ALGORITHM
 
+X_train_smote, y_train_smote = sm.fit_sample(X_train, y_train)
+
+# Tuning the Model
+rf_t = RandomForestClassifier()
+param_rf = {
+    "n_estimators" : [10,25,30,50],
+    "max_depth" : [1,2,4,5,6],
+    "min_samples_leaf" : np.linspace(0.07, 0.2, 30),
+}
+
+grid_rf = GridSearchCV(
+    estimator = rf_t,
+    param_grid = param_rf,
+    cv = 4,
+    scoring = 'precision',
+    refit = True,
+    n_jobs = -1,
+    verbose = 3
+)
+grid_rf.fit(X_train_smote, y_train_smote)
+pred_rft = grid_rf.predict(X_test)
+tuned_rf = grid_rf.best_estimator_
+
+# Deploy the Model
+import joblib
+joblib.dump(tuned_rf, 'lc_tunedrf')
+```
+
+```bash
+    +---------------------------+------------------+
+    |  Model   			| Precision Score  |
+    +---------------------------+------------------+
+    | Logistic Regression      	| 0.895764 	   |
+    | Tuned Logistic Regression | 0.896274 	   |
+    | SVC  			| 0.834360 	   |
+    | Tuned SVC 		| 0.831588 	   |
+    | Random Forest 		| 0.839162 	   |
+    | Tuned Random Forest 	| 0.897117 	   |
+    | GradientBoosting 		| 0.838876 	   |
+    | Tuned Gradient Boosting 	| 0.837845 	   |
+    +---------------------------+------------------+
+```
 
 ## Conclusions
 1. **83.18 % borrowers are likely to complete their loan amount** rather than 16.82 % borrowers who have been valued as charged-off.
