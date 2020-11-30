@@ -42,7 +42,19 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 
 ## Machine Learning Model
 ```python
+# Base Model for Initial Evaluation
+scaler = RobustScaler()
+
+X_train_init_sc_smote = scaler.fit_transform(X_train_init_smote)
+X_test_init_sc = scaler.transform(X_test_init)
+
+init_smote = LogisticRegression()
+init_smote.fit(X_train_init_sc_smote, y_train_init_smote)
+pred_init_smote = init_smote.predict(X_test_init_sc)
+
+
 # Feature Selection based on Correlation and LogisticRegression's Coefficient
+
 init_coef_smote = dict(zip(X_init.columns, abs(init_smote.coef_[0])))
 pd.DataFrame.from_dict(data = init_coef_smote, orient = 'index', columns=['Coef']).sort_values(by = 'Coef', ascending = False)
 
@@ -90,7 +102,7 @@ tuned_rf = grid_rf.best_estimator_
 import joblib
 joblib.dump(tuned_rf, 'lc_tunedrf')
 ```
-
+Using Precision from classification report because we only focus to minimize False Positive which the actual is charged-off but the model predicts fully paid rather than the actual is fully paid but the model predicts charged-off. This is nightmare for lenders/ investors because the worst scenario is all lenders' money would be gone in no time.
 ```bash
     +---------------------------+------------------+
     |  Model   			| Precision Score  |
