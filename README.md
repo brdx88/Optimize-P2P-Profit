@@ -42,12 +42,23 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 
 ## Machine Learning Model
 ```python
+# Feature Selection based on Correlation and LogisticRegression's Coefficient
+init_coef_smote = dict(zip(X_init.columns, abs(init_smote.coef_[0])))
+pd.DataFrame.from_dict(data = init_coef_smote, orient = 'index', columns=['Coef']).sort_values(by = 'Coef', ascending = False)
+
+feat_coef = lendclub[['sub_grade', 'purpose_small_business', 'installment', 'int_rate',
+                      'loan_amnt', 'purpose_wedding', 'purpose_house', 'purpose_medical',
+                      'purpose_moving', 'home_ownership_OTHER', 'home_ownership_RENT', 'dti',
+                      'purpose_home_improvement', 'purpose_educational', 'total_acc',
+                      'home_ownership_OWN', 'purpose_other', 'open_acc',
+                      'purpose_debt_consolidation', 'revol_util', 'purpose_renewable_energy',
+                      'annual_inc', 'pub_rec_bankruptcies', 'loan_status']]
+                      
 # Splitting
 X = feat_coef.drop('loan_status', axis = 1)
 y = feat_coef['loan_status']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 88, stratify = y)
-
 
 # Handling Imbalance
 # DATASET FOR TREE BASED ALGORITHM
