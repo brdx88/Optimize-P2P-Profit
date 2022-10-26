@@ -30,15 +30,23 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 
 
 ## Exploratory Data Analysis
+Summary of all fields in this dataset, including its sample.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/0.png)
-Summary of all fields in this dataset.
+Histogram of interest rates.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/2.png)
+Histogram of monthly installment.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/3.png)
+Sub grade by loan status.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/5.png)
+Borrower's purposes of loan.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/9.png)
+Borrower's home ownership.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/7.png)
+Borrower's grade by interest rate.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/4.png)
+Borrower's loan status.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/1.png)
+Borrower's loan status by debt-to-income ratio.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/10.png)
 
 ## Machine Learning Model
