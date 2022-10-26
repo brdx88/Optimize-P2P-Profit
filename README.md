@@ -31,6 +31,7 @@ In this project, we will focus on the range of loan amount between \$ 25 until \
 
 ## Exploratory Data Analysis
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/0.png)
+Summary of all fields in this dataset.
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/2.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/3.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/5.png)
