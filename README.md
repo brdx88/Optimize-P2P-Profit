@@ -4,6 +4,7 @@
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/money.jpg)
 
 [Watch](https://1drv.ms/v/s!AmofQsEAG2QikqQD2IzuxYRESJuqQQ?e=4bUDT4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vPxyCI9Hu90?si=grc6UzaQAJewUSxL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 LendingClub (LC) is one of the biggest P2P Lending platforms in America. Since 2007, they’ve been bringing borrowers and investors together, transforming the way people access to credit. Over the last 10 years, they've helped millions of people take control of their debt, grow their small businesses, and invest for the future. As a Borrower, you could loan up to \$ 40,000. As an Investor (Lender), you could invest your money at the minimum amount, \$ 25.
 
