@@ -3,6 +3,8 @@
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/LC%20logo.png)
 ![1](https://github.com/brdx88/Optimize-P2P-Profit/blob/main/images/money.jpg)
 
+[Watch](https://1drv.ms/v/s!AmofQsEAG2QikqQD2IzuxYRESJuqQQ?e=4bUDT4)
+
 LendingClub (LC) is one of the biggest P2P Lending platforms in America. Since 2007, they’ve been bringing borrowers and investors together, transforming the way people access to credit. Over the last 10 years, they've helped millions of people take control of their debt, grow their small businesses, and invest for the future. As a Borrower, you could loan up to \$ 40,000. As an Investor (Lender), you could invest your money at the minimum amount, \$ 25.
 
 Firstly, this dataset is from [Pierian Data](https://github.com/Pierian-Data) which contains loan amount, loan term, interest rate, installment, grade, homeownership, the purpose of the loan, loan_status, and many more. Basically, this dataset is available from [their site](https://www.lendingclub.com/info/download-data.action) which anyone can scrape from there.
